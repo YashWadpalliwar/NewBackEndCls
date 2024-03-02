@@ -1,0 +1,4 @@
+# file listion below are not send in github.
+node_modules
+package-lock.json
+img.txt
