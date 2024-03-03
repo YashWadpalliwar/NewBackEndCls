@@ -8,7 +8,7 @@ let Getabout = (req, res) => {
 };
 
 let PostHome = (req, res) => {
-  console.log(req, body);
+  console.log(req.body);
   res.status(201).json({ "message": "Succesfully got the data" });
 };
 

@@ -11,7 +11,6 @@ let app = express();
 let port = process.env.PORT
 
 //npm i body-parser.
-
 app.use(bodyParser.json());
 
 app.use(router)
@@ -19,3 +18,6 @@ app.use(router)
 app.listen(port, () => {
   console.log(`Server is running on port ${port} | http://localhost:${port}`);
 }); //this is an hight order function who accept a callback as an arugment {OSImodul}{TCPIP Family}.
+
+
+
